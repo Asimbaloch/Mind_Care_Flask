@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Mind Care - AI Chatbot{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/chatbot.css') }}">
+{% endblock %}
+
+{% block content %}
+<h1>AI Mental Health Assistant</h1>
+<div id="chat-container">
+    <div id="chat-messages"></div>
+    <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Type your message here..." required>
+        <input type="file" id="image-upload" accept="image/*">
+        <button type="submit">Send</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
+{% endblock %}

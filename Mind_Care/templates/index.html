@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Mind Care</h1>
+<p class="slogan">Your Path to Mental Wellness</p>
+
+<div class="services">
+    <div class="service-card">
+        <h2>AI Chatbot</h2>
+        <p>Talk to our AI mental health assistant</p>
+        <a href="{{ url_for('main.chatbot') }}" class="button">Start Chat</a>
+    </div>
+    <div class="service-card">
+        <h2>Mental Peace Videos</h2>
+        <p>Watch videos for mindfulness and relaxation</p>
+        <a href="{{ url_for('main.mental_peace_videos') }}" class="button">Watch Videos</a>
+    </div>
+    <div class="service-card">
+        <h2>Peace Music</h2>
+        <p>Listen to calming music</p>
+        <a href="{{ url_for('main.peace_music') }}" class="button">Listen Now</a>
+    </div>
+    <div class="service-card">
+        <h2>Information Posts</h2>
+        <p>Read about mental health topics</p>
+        <a href="{{ url_for('main.information_posts') }}" class="button">Read Posts</a>
+    </div>
+</div>
+{% endblock %}
