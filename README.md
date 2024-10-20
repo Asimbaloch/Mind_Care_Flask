@@ -1,6 +1,6 @@
 # **Mind Care Flask**
 
-**Mind Care Flask** is a web application designed to provide users with personalized mental health support. The platform offers resources, tools, and assessments to help individuals monitor their mental well-being, manage stress, and find coping strategies through an AI-powered chatbot.
+**Mind Care Flask** is a web application designed to provide users with personalized mental health support. The platform offers resources, tools, and assessments to help individuals monitor their mental well-being, manage stress, and find coping strategies through an AI-powered chatbot. 
 
 ## **Table of Contents**
 - [Features](#features)
