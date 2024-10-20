@@ -4,7 +4,7 @@
 
 ## **Table of Contents**
 - [Features](#features)
-- [Tech Stack](#tech-stack)
+- [Tech Stack](#tech-stack) 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
